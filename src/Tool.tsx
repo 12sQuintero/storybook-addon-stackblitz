@@ -1,6 +1,6 @@
 import React, { useState, MouseEvent } from "react";
-import { useParameter, useStorybookApi } from "@storybook/manager-api";
-import { IconButton, Link } from "@storybook/components";
+import { useParameter, useStorybookApi } from "storybook/manager-api";
+import { IconButton, Link } from "storybook/components";
 import { PARAM_KEY, TOOL_ID } from "./constants";
 import CodeflowLogo from "./components/CodeflowLogo";
 
